@@ -1,0 +1,20 @@
+{
+    "name": "atencion_procesos",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eduardo343/atencion-de-procesos.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/eduardo343/AtencionProcesos/issues"
+    },
+    "homepage": "https://github.com/eduardo343/AtencionProcesos#readme"
+  }

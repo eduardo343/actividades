@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App para control de un inventario</title>
+</head>
+
+<body>
+
+    <h1>App para control de un inventario</h1>
+
+    <div>
+        <div>
+            <form>
+
+                <label for="text">Introduce el nombre del producto:</label>
+                <input type="text" id="nombre">
+                <p></p>
+                <label for="text">Introduce el código del producto:</label>
+                <input type="number" id="codigo">
+                <p></p>
+                <label for="text">Breve descripción del producto:</label>
+                <input type="text" id="descripcion">
+                <p></p>
+                <label for="text">Cantidad de producto:</label>
+                <input type="number" id="cantidad">
+                <p></p>
+                <label for="text">Coste del producto:</label>
+                <input type="number" id="coste">
+                <p></p>
+                <label for="text">Posición del producto:</label>
+                <input type="number" id="posicion">
+                <p></p>
+                <input type="button" value="Agregar producto" id="btnAgregar" />
+
+                <p></p>
+                <label for="numero">Borrar producto por código:</label>
+                <input type="number" id="borrarPorCodigo">
+                <input type="button" value="Borrar" id="btnBorrar" />
+
+                <p></p>
+                <label for="numero">Buscar producto por código:</label>
+                <input type="number" id="buscarPorCodigo">
+                <input type="button" value="Buscar" id="btnBuscar" />
+
+                <p></p>
+                <input type="button" value="Listar productos" id="btnListar" />
+
+                <p></p>
+                <input type="button" value="Listar productos en orden inverso" id="btnListarInverso" />
+
+            </form>
+        </div>
+
+        <!-- Tabla 1 -->
+
+        <div>
+            <table align="center">
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Código</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Cantidad</th>
+                        <th>Coste</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla"></tbody>
+            </table>
+        </div>
+    </div>
+    <!-- End Example 01-->
+</body>
+<script src="main.js"></script>
+
+</html>

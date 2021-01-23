@@ -1,0 +1,24 @@
+{
+    "name": "ProyectoFinalArbolBinario",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "nodemon app.js",
+      "dev": "node app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Erod-star/ProyectoFinalArbolBinario.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Erod-star/ProyectoFinalArbolBinario/issues"
+    },
+    "homepage": "https://github.com/Erod-star/ProyectoFinalArbolBinario#readme",
+    "dependencies": {
+      "mathjs-expression-parser": "^1.0.2"
+    }
+  }
